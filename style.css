@@ -1,0 +1,23 @@
+body{
+    background-color: darkslategrey;
+    margin: 0%;
+    padding: 20px;
+    color: navajowhite; /*cor do texto*/
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: khaki;
+}
+
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
