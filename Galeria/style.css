@@ -2,13 +2,16 @@ body{
     background-color: #f5f5f5; /*Cor de fundo*/
     margin: 0;
     padding: 20px;
-    color: #333; /*Cor do texto*/
+    color: #1d1c1c; /*Cor do texto*/
 }
 
 h1{
-    color:#E6B5B0;
     text-align: center;
     margin-bottom: 10px;
+    font-size: 3em;
+    background: linear-gradient(to right, #D1CBBE, #151011);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h4{
