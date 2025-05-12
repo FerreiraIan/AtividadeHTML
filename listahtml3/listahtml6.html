@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária de Ficção</title>
+    <link rel="stylesheet" href="style6.css">
+    <style>
+        body {
+            margin: auto 50vh;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        ul li {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 400px;
+        }
+
+        .categoria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-direction: row;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .prato {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 200px;
+        }
+
+        .prato img {
+            width: 100px;
+            height: 100px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+
+        thead {
+            background-color: #e1e1e1;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer ul {
+            display: block;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cozinha Ferreira</h1>
+
+    <p>Cozinha Ferreira se trata de um blog onde você pode acessar receitas de família, tirar dúvidas, descobrir mais
+        sobre nosso restaurante e cultura.
+    </p>
+
+    <ul>
+        <li>Café Da Manhã
+            <div class="categoria">
+                <div class="prato">
+                    <img src="cafe1.webp" alt="">
+                    <p>4-6 Pessoas</p>
+                </div>
+                <div class="prato">
+                    <img src="cafe2.jpg" alt="">
+                    <p>2-3 Pessoas</p>
+                </div>
+            </div>
+
+        </li>
+        <li>Almoço
+            <div class="categoria">
+                <div class="prato">
+                    <img src="almoco1.webp" alt="">
+                    <p>Tradicional</p>
+                </div>
+                <div class="prato">
+                    <img src="almoco2.jpg" alt="">
+                    <p>Receita Caseira</p>
+                </div>
+            </div>
+        </li>
+        <li>Jantar
+            <div class="categoria">
+                <div class="prato">
+                    <img src="jantar1.png" alt="">
+                    <p>Romântico</p>
+                </div>
+                <div class="prato">
+                    <img src="jantar2.jpg" alt="">
+                    <p>Tradicional</p>
+                </div>
+            </div>
+        </li>
+        <li>Preparação De Carnes
+            <div class="categoria">
+                <div class="prato">
+                    <img src="carnes1.jpg" alt="">
+                    <p>Churrasco Pronto</p>
+                </div>
+                <div class="prato">
+                    <img src="carnes2.jpeg" alt="">
+                    <p>Início da preparação</p>
+                </div>
+            </div>
+        </li>
+        <li>Pratos Internacionais
+            <div class="categoria">
+                <div class="prato">
+                    <img src="internacional1.jpg" alt="">
+                    <p>Bacalhau à lagareiro</p>
+                </div>
+                <div class="prato">
+                    <img src="internacional2.jpg" alt="">
+                    <p>Brownie</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Receita</th>
+                <th>Dificuldade</th>
+                <th>Tempo de Preparo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Café Da Manhã Simples</td>
+                <td>Fácil</td>
+                <td>30 min</td>
+            </tr>
+            <tr>
+                <td>Jantar Romântico</td>
+                <td>Difícil</td>
+                <td>3h e 30min</td>
+            </tr>
+             <tr>
+                <td>Brownie/td>
+                <td>Média</td>
+                <td>1h e 30min</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        Nossas Redes Sociais
+        <ul>
+            <li><a
+                    href="https://www.instagram.com/accounts/login/?next=%2Fdiopcoes_%2F&source=omni_redirect">
+                     Instagram</a></li>
+                      <li><a
+                    href="https://www.facebook.com/diopcoesrestaurante/">
+                     Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
